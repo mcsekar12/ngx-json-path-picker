@@ -1,0 +1,40 @@
+.json__demo__cont {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  word-wrap: break-word;
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 20px;
+    max-height: calc(100vh - 200px);
+    textarea {
+      height: 100vh;
+      margin: 0;
+      padding: 30px;
+    }
+    button {
+      background: darkcyan;
+      padding: 5px;
+      border: none;
+      outline: none;
+    }
+  }
+
+  .code-view {
+    padding: 30px;
+    background: gainsboro;
+    height: 100vh;
+    overflow: auto;
+  }
+}
+
+.path {
+  padding: 20px;
+  background: gainsboro;
+  margin-top: 10px;
+}

@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="json__demo__cont">
+
+  <div class="col">
+
+    <textarea name="json" id="json" cols="30" rows="10" [(ngModel)]="jsonData" placeholder="Paste your json here"></textarea>
+    <button (click)="setCurrentJson()">Generate</button>
+
+  </div>
+  <div class="col code-view">
+    <ngx-json-path-picker [json]="currentJson" (key)="selectValue($event)"></ngx-json-path-picker>
+  </div>
+
+</div>
+<div class="path">
+  {{selectedKey}}
+</div>
