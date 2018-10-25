@@ -13,8 +13,8 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "paths": {
-      "ngx-json-path-picker": ["dist/json-path-picker"],
-      "ngx-json-path-picker/*": ["dist/json-path-picker/*"]
+      "ngx-json-path-picker": ["dist/ngx-json-path-picker"],
+      "ngx-json-path-picker/*": ["dist/ngx-json-path-picker/*"]
     }
   }
 }
